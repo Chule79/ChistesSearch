@@ -1,0 +1,32 @@
+{
+  "chistes": [
+    {
+      "id": "32c36a9a-98e6-4897-b944-c511f8ca65e1",
+      "title": "Hay tres tipos de personas en el mundo🤔🤔",
+      "media": "https://media2.giphy.com/media/krI1lBPsluByg/giphy.gif",
+      "chiste": "Hay tres tipos de personas en el mundo: los que saben contar y los que no.",
+      "type": "malos"
+    },
+    {
+      "id": "39653d53-a0aa-4412-a7ed-0d2491edc740",
+      "title": "Malo para tus dientes 😬",
+      "media": "https://media3.giphy.com/media/1lxS6icDEeaF7H6LZZ/giphy.gif",
+      "chiste": "¿Qué es rojo y malo para tus dientes? Un ladrillo.",
+      "type": "malos"
+    },
+    {
+      "id": "fcd685fc-9fc1-4fa1-ae87-69b5f3e2e993",
+      "title": "Cafe peligroso 😥",
+      "media": "https://media3.giphy.com/media/3o72F8t9TDi2xVnxOE/giphy.gif",
+      "chiste": "¿Cuál es el café más peligroso del mundo? El ex-preso",
+      "type": "malos"
+    },
+    {
+      "id": "d472b335-c6e6-4ba3-97fe-c535e7dde508",
+      "title": "Campeon de buceo",
+      "media": "https://media3.giphy.com/media/DKCNQcgbdekrC/giphy.gif",
+      "chiste": "¿Cómo se llama el campeón de buceo japonés? Tokofondo.",
+      "type": "malos"
+    }
+  ]
+}
