@@ -1,0 +1,51 @@
+
+
+.cartainf{
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+ 
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+
+.cartainf img{
+    width: 90%;
+    height: 50%;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.cartainf h3{
+    font-size: 20px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.cartainf p{
+    font-size: 30px; 
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.chiste{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-content: center;
+    justify-content: center;
+    padding: 160px;
+}

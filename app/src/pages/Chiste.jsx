@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
+import { CompChiste } from '../components/chiste/chisteComp';
+
 export const Chiste = () => {
   const [chiste, setChiste] = useState({});
   const params = useParams();
@@ -17,17 +19,5 @@ export const Chiste = () => {
     getChistes();
   }, []);
 
-  return (
-    <div className="chiste">
-      {chiste ? (
-        <figure>
-          <h3>{chiste.title}</h3>
-          <img src={chiste.media} />
-          <p>{chiste.chiste}</p>
-        </figure>
-      ) : (
-        <div>Not Exists</div>
-      )}
-    </div>
-  );
+  return <CompChiste chiste={chiste} />;
 };

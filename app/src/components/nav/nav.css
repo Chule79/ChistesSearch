@@ -1,0 +1,26 @@
+nav{
+   
+    padding: 2rem;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/large-leather.png");
+    border: #ffffff solid 3px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 10rem; 
+}
+
+  
+
+li a{
+    font-size: 30px; 
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   outline: none;
+}

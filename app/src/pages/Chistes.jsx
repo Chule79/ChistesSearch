@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { AllChistes } from '../components/AllChistes';
+import { AllChistes } from '../components/allchistes/AllChistes';
 
 export const Chistes = () => {
   const [chiste, setChiste] = useState([]);

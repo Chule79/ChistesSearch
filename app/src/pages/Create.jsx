@@ -1,7 +1,8 @@
+import '../App.css';
+
 import axios from 'axios';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-
 export const Crear = () => {
   const [title, setTitle] = useState('');
   const [media, setMedia] = useState('');
@@ -30,8 +31,8 @@ export const Crear = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={(ev) => createChiste(ev)}>
+    <div className="crear">
+      <form onSubmit={(ev) => createChiste(ev)} >
         <fieldset>
           <legend>Crear nuevo Chiste</legend>
           <label htmlFor="title">Titulo:</label>
