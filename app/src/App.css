@@ -4,7 +4,10 @@
   box-sizing: none;
 }
 
-
+body{
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+}
 .filtrar{
   align-self: center;
   font-size: 20px;
@@ -16,9 +19,8 @@ main{
   display: flex;
  flex-wrap: wrap;
  flex-direction: column;
- background-color: #000000;
- background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
  align-content: center;
+ 
 }
 
 .tipos{
@@ -35,7 +37,6 @@ main{
     display: flex;
     flex-wrap: wrap;
     width: 60%;
-    padding: 100px;
 }
 form{
   justify-self: center;
@@ -44,7 +45,7 @@ form{
   flex-wrap: wrap;
   flex-direction: column;
   gap: 1rem;
-  padding:300px 0px;
+  justify-self: center;
 }
 label{
   color: aliceblue;
@@ -55,7 +56,9 @@ fieldset{
   gap: 1rem;
   padding: 20px;
 }
-
+legend{
+  color: aliceblue;
+}
 @media screen and (max-width: 1000px){
 
   fieldset{
@@ -64,9 +67,7 @@ fieldset{
     flex-wrap: wrap;
     gap: 1rem;
   }
-  form{
-    padding:200px 60px;
-  }
+ 
   .crear{
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -74,7 +75,7 @@ fieldset{
       text-align: center;
       display: flex;
       flex-wrap: wrap;
-      width: 80%;
-      padding: 100px;
+      width: 60%;
+      
   }
  }

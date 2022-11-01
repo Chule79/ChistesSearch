@@ -4,7 +4,7 @@
     background-color: #ffffff;
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
     width: 500px;
-    height: 650px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -48,4 +48,12 @@
     align-content: center;
     justify-content: center;
     padding: 160px;
+}
+
+@media screen and (max-width: 1000px){
+    .cartainf{
+        width: 300px;
+        
+       
+    }
 }
