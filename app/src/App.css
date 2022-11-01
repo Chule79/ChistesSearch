@@ -46,7 +46,9 @@ form{
   gap: 1rem;
   padding:300px 0px;
 }
-
+label{
+  color: aliceblue;
+}
 fieldset{
   display: flex;
   align-items: center;
