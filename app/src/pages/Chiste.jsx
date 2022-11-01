@@ -11,7 +11,7 @@ export const Chiste = () => {
 
   useEffect(() => {
     const getChistes = async () => {
-      const data = await fetch(`https://chistes-service.onrender.com/${id}`);
+      const data = await fetch(`https://chistes-service.onrender.com/chistes/${id}`);
       const res = await data.json();
       setChiste(res);
     };
