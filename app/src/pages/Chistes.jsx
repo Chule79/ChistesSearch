@@ -6,7 +6,7 @@ export const Chistes = () => {
   const [chiste, setChiste] = useState([]);
   useEffect(() => {
     const getChistes = async () => {
-      const data = await fetch('http://localhost:8080/chistes');
+      const data = await fetch('https://chistes-service.onrender.com/chistes');
       const res = await data.json();
       setChiste(res);
     };

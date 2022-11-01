@@ -24,3 +24,18 @@ li a{
    color: rgb(255, 255, 255);
    outline: none;
 }
+
+@media screen and (max-width: 1000px){
+    nav{
+        padding: 1rem;
+    }
+    ul {   
+        gap: 3rem; 
+    }
+    
+li a{
+    font-size: 17px; 
+
+}
+    
+}

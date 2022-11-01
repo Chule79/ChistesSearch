@@ -25,14 +25,14 @@ export const Crear = () => {
     console.log(item);
     axios({
       method: 'post',
-      url: 'http://localhost:8080/chistes',
+      url: 'https://chistes-service.onrender.com/chistes',
       data: item,
     });
   };
 
   return (
     <div className="crear">
-      <form onSubmit={(ev) => createChiste(ev)} >
+      <form onSubmit={(ev) => createChiste(ev)}>
         <fieldset>
           <legend>Crear nuevo Chiste</legend>
           <label htmlFor="title">Titulo:</label>
